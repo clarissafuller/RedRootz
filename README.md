@@ -1,12 +1,49 @@
-# React + Vite
+# Hair by Red Rootz — Services Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive, single-page web application built for **Hair by Red Rootz**, a professional hairstyling brand. The project is designed to display services in an elegant layout with interactive links and a visually rich background, ideal for clients to browse offerings and book appointments.
 
-Currently, two official plugins are available:
+![Screenshot of Services Section](insert-screenshot-url-here)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Responsive design** that adapts across desktop, tablet, and mobile.
+- **Clickable service categories** that direct users to the booking site.
+- **Custom background image integration** with precise overlay positioning.
+- Smooth **anchor scrolling** for in-page navigation.
+- Built with **React**, **Vite**, and **CSS modules**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS Flexbox & Absolute Positioning
+- GitHub Pages (for deployment)
+
+## 🚀 Live Demo
+
+👉 [Visit the site](https://your-deployed-site-url.com)
+
+## 📁 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/red-rootz-services.git
+cd red-rootz-services
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+📌 Design Considerations
+Each service label and the heading were manually positioned with CSS to align precisely over a background image, preserving layout integrity across screen sizes.
+
+Absolute positioning with percentage-based coordinates was used for flexibility while maintaining aesthetic consistency.
+
+All interactive elements are accessible and open in new tabs to preserve the user's current session.
+
+📇 Credits
+Website designed and developed by Your Name for Hair by Red Rootz.
+```
