@@ -36,14 +36,16 @@ npm install
 
 # Run the development server
 npm run dev
+```
 
-📌 Design Considerations
+## 📌 Design Considerations
+
 Each service label and the heading were manually positioned with CSS to align precisely over a background image, preserving layout integrity across screen sizes.
 
 Absolute positioning with percentage-based coordinates was used for flexibility while maintaining aesthetic consistency.
 
 All interactive elements are accessible and open in new tabs to preserve the user's current session.
 
-📇 Credits
-Website designed and developed by Your Name for Hair by Red Rootz.
-```
+## 📇 Credits
+
+Website designed and developed by Clarissa Fuller for Red Rootz Salon.
