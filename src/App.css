@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Oswald", sans-serif;
   background-color: #000000;
@@ -64,6 +66,7 @@ a {
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
+  display: flex;
 }
 
 .nav-bar a {
@@ -90,12 +93,12 @@ a {
   }
 
   .logo {
-    width: 90%;
+    width: 100rem;
   }
 }
 
 .logo {
-  width: 75%;
+  width: 47%;
 }
 
 /* Contact */
@@ -126,7 +129,7 @@ a {
   text-shadow: 2px 2px 4px #ffde59;
 }
 
-.book-now p {
+.book-now a {
   padding: 14%;
 }
 

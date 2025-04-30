@@ -1,15 +1,34 @@
 import Map from "../components/Map";
 
 export default function Home() {
+  function visitPortfolio() {
+    navigate("/portfolio");
+  }
+  function visitClarksTables() {
+    navigate("/clarkstables");
+  }
+
   return (
     <div className="home-wrapper">
       {/* Hero Section */}
       <section className="home-hero">
         <nav className="nav-bar">
-          <a href="#about">About</a>
+          <a href="about">About</a>
           <a href="#contact">Contact</a>
-          <a href="#services">Services</a>
-          <a href="#appointments">Appointments</a>
+          <a
+            href="https://hairbyredrootz.glossgenius.com/services"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Services
+          </a>
+          <a
+            href="https://hairbyredrootz.glossgenius.com/booking-flow"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Appointments
+          </a>
         </nav>
         <img src="src/assets/logo.png" alt="Red Rootz logo" className="logo" />
       </section>
