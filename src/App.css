@@ -135,27 +135,66 @@ a {
 
 /* Services */
 .services {
-  background-color: #580703;
+  position: relative;
+  background: url("src/assets/services.png") center center / contain no-repeat;
+  background-color: black;
+  min-height: 85vh;
   color: white;
-  padding: 1%;
 }
 
-.services h2 {
+.service-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.service-heading-link {
+  position: absolute;
+  top: 19%;
+  left: 62%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.service-heading-link h2 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
-.services .service-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1%;
+.service-item {
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  transition: text-decoration 0.2s;
 }
 
-.services .service-item {
-  background: white;
-  color: #7b0e16;
-  padding: 1%;
+/* Example positioning — adjust percentages */
+.service-haircuts {
+  top: 45%;
+  left: 10%;
+}
+.service-color {
+  top: 45%;
+  left: 36%;
+}
+.service-extensions {
+  top: 45%;
+  left: 57%;
+}
+.service-styling {
+  top: 45%;
+  left: 82%;
+}
+
+.service-item:hover {
+  text-decoration: underline;
 }
 
 /* Team */

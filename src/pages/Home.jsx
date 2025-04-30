@@ -58,12 +58,48 @@ export default function Home() {
 
       {/* Services */}
       <section className="services" id="services">
-        <h2>SERVICES</h2>
-        <div className="service-list">
-          <div className="service-item">Haircuts</div>
-          <div className="service-item">Color</div>
-          <div className="service-item">Extensions</div>
-          <div className="service-item">Styling</div>
+        <div className="service-content">
+          <a
+            href="https://hairbyredrootz.glossgenius.com/services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="service-heading-link"
+          >
+            <h2>SERVICES</h2>
+          </a>
+
+          <a
+            href="https://hairbyredrootz.glossgenius.com/services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="service-item service-haircuts"
+          >
+            Haircuts
+          </a>
+          <a
+            href="https://hairbyredrootz.glossgenius.com/services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="service-item service-color"
+          >
+            Color
+          </a>
+          <a
+            href="https://hairbyredrootz.glossgenius.com/services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="service-item service-extensions"
+          >
+            Extensions
+          </a>
+          <a
+            href="https://hairbyredrootz.glossgenius.com/services"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="service-item service-styling"
+          >
+            Styling
+          </a>
         </div>
       </section>
 
