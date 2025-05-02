@@ -35,13 +35,19 @@ export default function Home() {
 
       {/* Contact Section */}
       <section className="contact" id="contact">
+        <p>CONTACT</p>
         <div className="text-box">
-          <p>CALL</p>
-          <p>TEXT</p>
-          <p>EMAIL</p>
-          <p>DM</p>
+          <a href="tel:+7175749844">CALL</a>
+          <a href="sms:+7175749844">TEXT</a>
+          <a href="mailto:info@redrootz.com">EMAIL</a>
+          <a
+            href="https://instagram.com/redrootz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            DM
+          </a>
         </div>
-        <Map />
       </section>
 
       {/* Book Now */}
@@ -56,14 +62,17 @@ export default function Home() {
         </a>
       </section>
       <section className="business-hours">
-        <p>BUSINESS HOURS</p>
-        <p>Monday 10 AM - 8 PM</p>
-        <p>Tuesday 10 AM - 8 PM</p>
-        <p>Wednesday CLOSED</p>
-        <p>Thursday 9 AM - 7 PM</p>
-        <p>Friday CLOSED</p>
-        <p>Saturday CLOSED</p>
-        <p>Sunday CLOSED</p>
+        <div className="hours-list">
+          <p>BUSINESS HOURS</p>
+          <p>Monday 10 AM - 8 PM</p>
+          <p>Tuesday 10 AM - 8 PM</p>
+          <p>Wednesday CLOSED</p>
+          <p>Thursday 9 AM - 7 PM</p>
+          <p>Friday CLOSED</p>
+          <p>Saturday CLOSED</p>
+          <p>Sunday CLOSED</p>
+        </div>
+        <Map />
       </section>
 
       {/* The Team */}
