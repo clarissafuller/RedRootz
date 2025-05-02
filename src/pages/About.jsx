@@ -1,11 +1,12 @@
 import Navbar from "../components/Navbar";
+import "./About.css";
 
 export default function About() {
   return (
     <div className="about-wrapper">
       <section className="header">
         <Navbar />
-        <p>EVERYTHING YOU NEED TO KNOW</p>
+        {/* <p className="title-text">EVERYTHING YOU NEED TO KNOW</p> */}
       </section>
       <section className="cancellation-policy">
         <h1>CANCELLATION POLICY</h1>
