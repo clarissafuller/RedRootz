@@ -62,44 +62,81 @@ a {
 }
 
 .nav-bar {
-  padding: 1%;
-  font-weight: bold;
-  font-size: 2rem;
-  text-transform: uppercase;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  background-color: #ffffff00;
 }
 
-.nav-bar a {
-  text-decoration: none;
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.nav-bar a,
+.nav-bar .logo-link {
   color: #580703;
-  margin: 2%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  white-space: nowrap;
 }
 
 .nav-bar a:hover {
-  color: #000000;
+  color: #000;
+}
+
+.tiger-logo {
+  height: 60px;
+  width: auto;
+}
+
+.logo {
+  width: 66%;
 }
 
 /* Mobile Nav Fix */
 @media (max-width: 768px) {
   .nav-bar {
-    font-size: 1.2rem;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0.5rem;
+    gap: 1rem;
   }
 
-  .nav-bar a {
-    display: block;
-    margin: 0.5rem 0;
+  .nav-left,
+  .nav-right {
+    gap: 0.8rem;
+  }
+
+  .nav-bar a,
+  .nav-bar .logo-link {
+    font-size: 1rem;
+  }
+
+  .tiger-logo {
+    height: 45px;
   }
 
   .logo {
     max-width: 300px;
   }
-}
 
-.logo {
-  width: 60%;
+  .logo {
+    width: 60%;
+  }
 }
 
 /* Contact */
