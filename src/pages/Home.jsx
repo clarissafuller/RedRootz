@@ -55,52 +55,15 @@ export default function Home() {
           BOOK NOW
         </a>
       </section>
-
-      {/* Services */}
-      <section className="services" id="services">
-        <div className="service-content">
-          <a
-            href="https://hairbyredrootz.glossgenius.com/services"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="service-heading-link"
-          >
-            <h2>SERVICES</h2>
-          </a>
-
-          <a
-            href="https://hairbyredrootz.glossgenius.com/services"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="service-item service-haircuts"
-          >
-            Haircuts
-          </a>
-          <a
-            href="https://hairbyredrootz.glossgenius.com/services"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="service-item service-color"
-          >
-            Color
-          </a>
-          <a
-            href="https://hairbyredrootz.glossgenius.com/services"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="service-item service-extensions"
-          >
-            Extensions
-          </a>
-          <a
-            href="https://hairbyredrootz.glossgenius.com/services"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="service-item service-styling"
-          >
-            Styling
-          </a>
-        </div>
+      <section className="business-hours">
+        <p>BUSINESS HOURS</p>
+        <p>Monday 10 AM - 8 PM</p>
+        <p>Tuesday 10 AM - 8 PM</p>
+        <p>Wednesday CLOSED</p>
+        <p>Thursday 9 AM - 7 PM</p>
+        <p>Friday CLOSED</p>
+        <p>Saturday CLOSED</p>
+        <p>Sunday CLOSED</p>
       </section>
 
       {/* The Team */}
