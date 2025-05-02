@@ -10,7 +10,7 @@
 
 /* Header Section */
 .header {
-  background: url("src/assets/1P4A8054.jpg") center center/cover no-repeat;
+  background: url("./1P4A8054.jpg") center center/cover no-repeat;
 }
 .title-text {
   font-size: 3rem;

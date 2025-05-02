@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="nav-bar">
-      <a href="/about">About</a>
+      <Link to="/about">About</Link>
       <a href="#contact">Contact</a>
       <a
         href="https://hairbyredrootz.glossgenius.com/services"
@@ -21,7 +21,7 @@ export default function Navbar() {
       </a>
       <Link to="/" className="logo-link">
         <img
-          src="src/assets/tigers.png"
+          src="./assets/tigers.png"
           alt="tiger logo"
           className="tiger-logo"
         />

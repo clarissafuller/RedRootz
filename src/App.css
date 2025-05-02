@@ -37,7 +37,7 @@ a {
 /* Hero */
 .home-hero {
   position: relative;
-  background-image: url("src/assets/1P4A8494.jpg");
+  background-image: url("./1P4A8494.jpg");
   background-size: cover;
   background-position: center;
   padding-top: 1%;
@@ -144,7 +144,7 @@ a {
   font-weight: bold;
   display: flex;
   align-items: center;
-  background-image: url("src/assets/33C2DCB2-C33C-45E3-A303-FEF10C47504C_1_201_a.jpeg");
+  background-image: url("./33C2DCB2-C33C-45E3-A303-FEF10C47504C_1_201_a.jpeg");
   background-size: cover;
   background-position: center;
   border: 1rem solid black;
@@ -212,7 +212,7 @@ a {
 
 /* Book Now */
 .book-now {
-  background: url("src/assets/1P4A7839.jpg") center center/cover no-repeat;
+  background: url("./1P4A7839.jpg") center center/cover no-repeat;
   color: #ffde59;
   font-size: 5.5rem;
   font-weight: 900;
@@ -242,7 +242,7 @@ a {
 /* Team */
 .team {
   position: relative;
-  background: url("src/assets/newpic.jpg") center center/cover no-repeat;
+  background: url("./newpic.jpg") center center/cover no-repeat;
   padding: 16%;
   height: 60vh;
   display: flex;

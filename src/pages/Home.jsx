@@ -14,7 +14,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="home-hero">
         <Navbar />
-        <img src="src/assets/logo.png" alt="Red Rootz logo" className="logo" />
+        <img src="./assets/logo.png" alt="Red Rootz logo" className="logo" />
       </section>
 
       {/* Contact Section */}
@@ -62,7 +62,7 @@ export default function Home() {
       {/* The Team */}
       <section className="team">
         <p className="team-text">THE TEAM</p>
-        <img src="src/assets/1P4A8235.jpg" alt="Team" className="team-pic" />
+        <img src="./assets/1P4A8235.jpg" alt="Team" className="team-pic" />
       </section>
 
       {/* Team Breakdown */}
@@ -76,7 +76,7 @@ export default function Home() {
           >
             Makayla
           </a>
-          <img src="src/assets/1P4A8356.jpg" alt="Makayla" />
+          <img src="./assets/1P4A8356.jpg" alt="Makayla" />
         </div>
         <div className="ek">
           <a
@@ -87,7 +87,7 @@ export default function Home() {
           >
             EK
           </a>
-          <img src="src/assets/1P4A8275.jpg" alt="EK" />
+          <img src=".assets/1P4A8275.jpg" alt="EK" />
         </div>
       </section>
 
