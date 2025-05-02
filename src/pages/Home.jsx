@@ -1,4 +1,5 @@
 import Map from "../components/Map";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   function visitPortfolio() {
@@ -12,24 +13,7 @@ export default function Home() {
     <div className="home-wrapper">
       {/* Hero Section */}
       <section className="home-hero">
-        <nav className="nav-bar">
-          <a href="about">About</a>
-          <a href="#contact">Contact</a>
-          <a
-            href="https://hairbyredrootz.glossgenius.com/services"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Services
-          </a>
-          <a
-            href="https://hairbyredrootz.glossgenius.com/booking-flow"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Appointments
-          </a>
-        </nav>
+        <Navbar />
         <img src="src/assets/logo.png" alt="Red Rootz logo" className="logo" />
       </section>
 

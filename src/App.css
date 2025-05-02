@@ -85,6 +85,7 @@ a {
     font-size: 1.2rem;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
   }
 
   .nav-bar a {
@@ -93,12 +94,12 @@ a {
   }
 
   .logo {
-    width: 100rem;
+    max-width: 300px;
   }
 }
 
 .logo {
-  width: 47%;
+  width: 60%;
 }
 
 /* Contact */
@@ -106,7 +107,7 @@ a {
   background: #000;
   color: #fff;
   padding: 1%;
-  font-size: 400%;
+  font-size: 4rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -114,10 +115,66 @@ a {
   background-size: cover;
   background-position: center;
   border: 1rem solid black;
+  justify-content: center;
 }
 
 .text-box {
   padding: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .contact p,
+  .contact h2 {
+    width: 100%;
+  }
+
+  .text-box {
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+
+  .text-box a {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Business Hours Adjustments */
+.business-hours {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.hours-list {
+  width: 100%;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  font-size: 1.1rem;
+}
+
+.hours-list p:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.business-hours iframe,
+.business-hours .leaflet-container {
+  width: 100% !important;
+  max-width: 90vw;
+  height: 100px;
 }
 
 /* Book Now */
@@ -132,69 +189,21 @@ a {
 .book-now a {
   padding: 14%;
 }
+/* Business Hours */
 
-/* Services */
-.services {
-  position: relative;
-  background: url("src/assets/services.png") center center / contain no-repeat;
-  background-color: black;
-  min-height: 85vh;
+.business-hours {
+  display: flex;
   color: white;
+  padding: 3%;
 }
 
-.service-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.service-heading-link {
-  position: absolute;
-  top: 19%;
-  left: 62%;
-  transform: translateX(-50%);
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-.service-heading-link h2 {
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
-}
-
-.service-item {
-  position: absolute;
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
-  transition: text-decoration 0.2s;
-}
-
-/* Example positioning — adjust percentages */
-.service-haircuts {
-  top: 45%;
-  left: 10%;
-}
-.service-color {
-  top: 45%;
-  left: 36%;
-}
-.service-extensions {
-  top: 45%;
-  left: 57%;
-}
-.service-styling {
-  top: 45%;
-  left: 82%;
-}
-
-.service-item:hover {
-  text-decoration: underline;
+.hours-list {
+  padding: 1%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Team */
