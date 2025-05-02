@@ -7,15 +7,6 @@ export default function Navbar() {
         <a href="/about">About</a>
         <a href="#contact">Contact</a>
       </div>
-
-      <Link to="/" className="logo-link">
-        <img
-          src="src/assets/tigers.png"
-          alt="tiger logo"
-          className="tiger-logo"
-        />
-      </Link>
-
       <div className="nav-right">
         <a
           href="https://hairbyredrootz.glossgenius.com/services"
@@ -32,6 +23,13 @@ export default function Navbar() {
           Appointments
         </a>
       </div>
+      <Link to="/" className="logo-link">
+        <img
+          src="src/assets/tigers.png"
+          alt="tiger logo"
+          className="tiger-logo"
+        />
+      </Link>
     </nav>
   );
 }

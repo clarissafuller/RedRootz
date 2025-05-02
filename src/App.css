@@ -90,7 +90,7 @@ a {
   color: #580703;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 3.1rem;
   white-space: nowrap;
 }
 
@@ -131,11 +131,7 @@ a {
   }
 
   .logo {
-    max-width: 300px;
-  }
-
-  .logo {
-    width: 60%;
+    width: 100%;
   }
 }
 
